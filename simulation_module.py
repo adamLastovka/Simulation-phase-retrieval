@@ -273,7 +273,7 @@ class PropagationSimulation:
 
         return field
 
-    def retrieve_mask(self, target_intensity, num_iterations):
+    def retrieve_mask(self, target_intensity, num_iterations, log_flag=False):
         """
         Finds phase for a given target intensity distribution
         :param target_intensity: (nd.array) 2D array of target intensity with shape matching simulation sampling size
@@ -296,7 +296,7 @@ class PropagationSimulation:
             self.propagate_forward()  # Forward with input intensity constraint
             image_phase = np.angle(self.image_field.u)
 
-            if iteration % 10 == 0:   # log images
+            if iteration % 10 == 0 and log_flag:   # log images
                 intensity_log.append(copy.deepcopy(self.image_field))
                 mask_log.append(copy.deepcopy(self.mask))
 

@@ -1,5 +1,9 @@
 # Diffraction-Phase-Retrieval
-laser propagation simulation + iterative phase retrieval and phase mask optimization
+Codebase for simulating laser propagation through a phase mask and generating phase masks for target intensity distributions using a modified Gerchberg-Saxton algorithm.
+
+### Phase retrieval results
+![plot](./report_images/line_target_results.png)
+![plot](./report_images/moon_target_results.png)
 
 ### Setup
 Install all necessary modules using:
