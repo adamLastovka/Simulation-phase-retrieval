@@ -1,5 +1,5 @@
 # Simulation-Phase-Retrieval
-Codebase for simulating laser propagation through a phase mask and generating phase masks for target intensity distributions using a modified Gerchberg-Saxton algorithm.
+Codebase for simulating laser propagation through a phase mask and generating phase masks for target intensity distributions using a modified Gerchberg-Saxton algorithm. Details in report titled "Work term report 200"
 
 ### Phase retrieval results
 ![plot](./report_images/line_target_results.png)
