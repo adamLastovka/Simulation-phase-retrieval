@@ -1,4 +1,4 @@
-# Diffraction-Phase-Retrieval
+# Simulation-Phase-Retrieval
 Codebase for simulating laser propagation through a phase mask and generating phase masks for target intensity distributions using a modified Gerchberg-Saxton algorithm.
 
 ### Phase retrieval results
